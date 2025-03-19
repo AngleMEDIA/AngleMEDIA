@@ -5,6 +5,10 @@
 body {
   background-color: #5c5c5c;
 }
+#twitch_wrapper {
+  width: 65%;
+  display: inline-block;
+        }
 </style>
 </head>
 <body>
@@ -17,11 +21,9 @@ body {
 <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
 <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
+<script type="text/javascript" class="twitch-stream-script">
   new Twitch.Player("twitch-embed", {
     channel: "angletv_mz"
-    width: 640
-    height: 360
   });
 </script>
 </body>
