@@ -5,40 +5,15 @@
 body {
   background-color: #5c5c5c;
 }
-#twitch_wrapper {
-  width: 360;
-  height: 640;
-        }
+
 </style>
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 </head>
 <body>
 <h1>AngleMEDIA (Prace nad stroną ciągle trwają.)
  <a href="AngleMEDIA-Streams.m3u">Playlista M3U, należy otworzyć w programie VLC. (REKOMENDOWANE)</a> 
-<div id="container">
 
-    <div id="twitch_wrapper">
-        <!--twitch: https://dev.twitch.tv/docs/embed/everything-->
-        <div class="twitch-stream">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
+<center><iframe src="https://player.twitch.tv/?channel=angletv_mz&parent=github.com" frameborder="0" allowfullscreen="true" scrolling="no" height="360" width="640"></iframe></center>
 
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-            <script type="text/javascript" class="twitch-stream-script">
-                new Twitch.Embed("twitch-embed", {
-                    width: "100%",
-                    height: "100%",
-                    theme: "dark",
-                    channel: "angletv_mz",
-                    // only needed if your site is also embedded on embed.example.com and othersite.example.com
-                });
-            </script>
-        </div>
-    </div>
-    <div class="clear"></div>
-
-    <p>Nie działa? <a href="AngleMEDIA-Streams.m3u">Pobierz plik M3U</a> i otwórz w programie VLC.</p>
-
-</div>
 </body>
 </html>
