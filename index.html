@@ -2,7 +2,31 @@
 <head>
 <title>AngleMEDIA</title>
 <script type="module" src="https://unpkg.com/twitch-stream-embed"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
+b {
+	font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: medium;
+  color: white;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: medium;
+  color: white;
+}
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
 body {
   background-color: #5c5c5c;
 }
@@ -11,9 +35,12 @@ body {
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 </head>
 <body>
+<header>
 <h1>AngleMEDIA (Prace nad stroną ciągle trwają.)
- <a href="AngleMEDIA-Streams.m3u">Playlista M3U, należy otworzyć w programie VLC. (REKOMENDOWANE)</a> 
+</header>
+<b><a href="AngleMEDIA-Streams.m3u">Playlista M3U, należy otworzyć w programie VLC. (REKOMENDOWANE)</a><b>
 
+<center><b>AngleTV<b></center>
 <center><twitch-stream channel="angletv_mz" autoplay="false" height="360" width="640"></twitch-stream></center>
 
 </body>
