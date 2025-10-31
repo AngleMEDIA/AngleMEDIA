@@ -2,6 +2,9 @@
 #EXTINF:0,AngleTV
 #EXTVLCOPT:network-caching=1000
 http://147.185.221.26:62354/hls/public.m3u8
+#EXTINF:0,AngleTV (720p50)
+#EXTVLCOPT:network-caching=1000
+http://147.185.221.26:62354/hls/publiclow.m3u8
 #EXTINF:0,AngleTV 2
 #EXTVLCOPT:network-caching=1000
 http://147.185.221.26:62354/hls/publicatv2.m3u8
